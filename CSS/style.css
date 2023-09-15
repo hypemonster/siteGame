@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Roboto+Slab:wght@100;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Kadwa", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    padding-top: 50px;
+}
+
+h3 {
+    color: #000;
+    font-family: "Kadwa", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 100px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-family: "Kadwa", sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+    margin-right: 65px;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Kadwa", sans-serif;
+    color: #000;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.divForm {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.form input {
+    width: 470px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 2px solid #000;
+}
+
+.formRegister p {
+    padding-top: 20px;
+}
+
+button {
+    width: 230px;
+    height: 60px;
+    border-radius: 8px;
+    background: #000;
+    gap: 0.6em;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Kadwa", sans-serif;
+    color: #FFF;
+    letter-spacing: 3.5px;
+}
+
+/* Here Start the specify part of download page */
+
+.svgIMG {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.desktop {
+    margin-right: 100px;
+}
+
+.desktop img {
+    width: auto;
+    height: 250px;
+}
+
+.cellphone {
+    margin-left: 300px;
+}
+
+.cellphone img {
+    width: auto;
+    height: 180px;
+
+    margin-top: 40px;
+}
+
+.cellphone p {
+    padding-top: 30px;
+}

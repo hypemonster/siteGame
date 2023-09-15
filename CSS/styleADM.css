@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Roboto+Slab:wght@100;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fbfcf8;
+}
+
+p {
+    font-family: "Kadwa", sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #000;
+    font-family: "Kadwa", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 2.8px;
+    margin-left: 200px;
+}
+
+h2 {
+    font-family: "Kadwa", sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+
+h3 {
+    color: #000;
+    font-family: "Kadwa", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 200px;
+}
+
+h4 {
+    font-family: "Kadwa", sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+ul h4 {
+    font-size: 30px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.login-page {
+    width: 360px;
+    padding: 5% 0 0;
+    margin-left: 200px;
+    float: left;
+}
+
+.form input {
+    font-family: "Kadwa", sans-serif;
+    outline: 0;
+    width: 100%;
+    border: 1;
+    border-color: #111;
+    margin: 0 0 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+
+.formRegister input {
+    font-family: "Kadwa", sans-serif;
+    outline: 0;
+    width: 100%;
+    border: 1;
+    border-color: #111;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;   
+}
+
+.formRegister p {
+    font-family: "Kadwa", sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.principalImg {
+    float: left;
+    margin-left: 20%;
+}
+
+.tes {
+    width: 960px;
+    height: 960px;
+    background-color: #111;
+}
+
+button {
+    --primary-color: #111;
+    --secondary-color: #FFF;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+}
+
+button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+}
+
+button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+button:hover .arrow {
+    background: var(--secondary-color);
+}
+
+button:hover .arrow::before {
+    right: 0;
+}
+
+table, td, th {
+    font-family: "Kadwa", sans-serif;
+    border: 1px solid;
+}
+
+table td {
+    padding: 5px;
+}
+
+table th {
+    padding: 5px;
+    color: #FFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    background-color: #111;
+}
+
+.options {
+    border: 2px solid;
+    padding: 20px;
+    box-shadow: 10px 5px 5px black;
+}
